@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/9elements/go-linux-lowlevel-hw/pkg/hwapi"
+	"github.com/micgor32/go-linux-lowlevel-hw/pkg/hwapi"
 )
 
 func main() {

@@ -1,5 +1,3 @@
-github.com/9elements/go-linux-lowlevel-hw v1.0.4 h1:iwwerd5XiJ6VbLdgDPehvQw0LXxb7OpF9OFecoPM/Bk=
-github.com/9elements/go-linux-lowlevel-hw v1.0.4/go.mod h1:WZgRR4i6zGDkwJrPVyAyHymQ+XaJG42AtiIsFK2L4Xo=
 github.com/digitalocean/go-smbios v0.0.0-20180907143718-390a4f403a8e h1:vUmf0yezR0y7jJ5pceLHthLaYf4bA5T14B6q39S4q2Q=
 github.com/digitalocean/go-smbios v0.0.0-20180907143718-390a4f403a8e/go.mod h1:YTIHhz/QFSYnu/EhlF2SpU2Uk+32abacUYA5ZPljz1A=
 github.com/fearful-symmetry/gomsr v0.0.1 h1:m208RzdTApWVbv8a9kf78rdPLQe+BY9AxRb/nSbHxSA=
