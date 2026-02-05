@@ -17,18 +17,12 @@ func (h HwAPI) ReadMSR(msr int64) []uint64 {
 			fmt.Fprintf(os.Stdout, "ReadMSR - gomsr.MSR context aborted with: %v\n", err)
 			break
 		}
-		func() {
-			defer msrCtx.Close()
-
-			msrData, err := msrCtx.Read(msr)
-			if err != nil {
-				fmt.Fprintf(os.Stdout,
-					"ReadMSR - msrCtx.Read aborted with: %v\n", err)
-				return
-			}
-			ret = append(ret, msrData)
-		}()
-
+		msrData, err := msrCtx.Read(msr)
+		if err != nil {
+			fmt.Fprintf(os.Stdout, "ReadMSR - msrCtx.Read aborted with: %v\n", err)
+			break
+		}
+		ret = append(ret, msrData)
 		count++
 	}
 
